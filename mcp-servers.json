@@ -1,0 +1,9 @@
+{
+  "_comment": "Add this 'mcpServers' object as a top-level field in ~/.claude.json (merge — don't overwrite the file).",
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    }
+  }
+}
